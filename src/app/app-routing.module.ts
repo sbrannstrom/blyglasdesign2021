@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'auth',
     loadChildren: () => import('./pages/renoveringar/auth/auth.module').then( m => m.AuthPageModule)
   },
+  {
+    path: 'about',
+    loadChildren: () => import('./pages/renoveringar/about/about.module').then( m => m.AboutPageModule)
+  },
 ];
 
 @NgModule({

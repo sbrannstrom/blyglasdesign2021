@@ -19,7 +19,7 @@ export class HeaderComponent implements OnInit {
   pages: IPage[] = [
     {
       title: 'Hem',
-      link: '/renoveringar',
+      link: '/',
     },
     {
       title: 'Auktorisation',
